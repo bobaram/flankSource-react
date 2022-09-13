@@ -1,0 +1,31 @@
+.fixture {
+  width: 60%;
+  height: 80px;
+  color: wheat;
+  border: 1px wheat solid;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-right: 1px solid white;
+  padding-left: 10px;
+}
+.left div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
